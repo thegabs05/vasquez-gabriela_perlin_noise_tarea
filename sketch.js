@@ -6,7 +6,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 2; i++) {
     linea = new Linea();
     lineas.push(linea);
   }
